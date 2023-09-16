@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <main id="card">
+    <div id="image-container">
+      <img src="images/illustration-woman-online-desktop.svg" alt="" id="woman-image-pc">
+      <img src="images/illustration-woman-online-mobile.svg" alt="" id="woman-image">
+      <img src="images/bg-pattern-mobile.svg" alt="" id="bottom">
+      <img src="images/bg-pattern-desktop.svg" alt="" id="bottom-pc">
+      <img src="images/illustration-box-desktop.svg" alt="" id="box">
+    </div>
+    <div id="main-text">
+      <h1 id="faq">FAQ</h1>
+      <div id="members" class="container">
+        <div id="member-start">
+          <p id="member-text" class="text">How many team members can I invite? <img src="images/icon-arrow-down.svg" alt="" id="arrow"></p>
+        </div>
+        <div id="member-hidden" class="hidden">
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+        </div>
+      </div>
+      <hr class="line">
+      <div id="size" class="container">
+        <div id="size-start">
+          <p id="size-text" class="text">What is the maximum file upload size? <img src="images/icon-arrow-down.svg" alt="" id="arrow"></p>
+        </div>
+        <div id="size-hidden" class="hidden">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+      </div>
+      <hr class="line">
+      <div id="password" class="container">
+        <div id="password-start">
+          <div id="password-text" class="text">How do I reset my password? <img src="images/icon-arrow-down.svg" alt="" id="arrow"></div>
+        </div>
+        <div id="password-hidden" class="hidden">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </div>
+      </div>
+      <hr class="line">
+      <div id="subscription" class="container">
+        <div id="subscription-start">
+          <div id="subscription-text" class="text">Can I cancel my subscription? <img src="images/icon-arrow-down.svg" alt="" id="arrow"></div>
+        </div>
+        <div id="subscription-hidden"" class="hidden">Yes! Send us a message and we’ll process your request no questions asked.</div>
+      </div>
+      <hr class="line"> 
+      <div id="support" class="container">
+        <div id="support-start">
+          <div id="support-text" class="text">Do you provide additional support? <img src="images/icon-arrow-down.svg" alt="" id="arrow"></div>
+        </div>
+        <div id="support-hidden" class="hidden">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </div>
+      </div>
+      <hr class="line">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
